@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.letzautomate.tests.Test001" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-09T18:11:53" hostname="DESKTOP-2RG7AOM" time="14.493">
+<testsuite name="com.letzautomate.tests.Test001" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-10T17:43:19" hostname="DESKTOP-2RG7AOM" time="13.883">
   <properties/>
-  <testcase name="test001" classname="com.letzautomate.tests.Test001" time="14.493"/>
+  <testcase name="test001" classname="com.letzautomate.tests.Test001" time="13.883"/>
   <system-out><![CDATA[[TestNG-test=Gradle test-1] INFO  com.letzautomate.utilities.TestcaseManager  - ---Execution is started for testcase Login Functionality is started----
 Browser and Assistive Technology Support
 Report Issue
@@ -115,11 +115,11 @@ Javascript: listbox.js
 Javascript: toolbar.js
 Javascript: listbox-rearrangeable.js
 ]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 15476
+  <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 35551
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Feb 09, 2021 11:41:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 10, 2021 11:13:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

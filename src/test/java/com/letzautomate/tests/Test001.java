@@ -13,8 +13,8 @@ public class Test001 extends TestcaseManager {
 
       // login.login();
         setTestcaseName("Login Functionality");
-       // login.selectValue("Proximity of fine dining");
-        login
+       login.selectValue("Proximity of fine dining");
+        //login
     }
 
 }
