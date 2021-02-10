@@ -1,4 +1,4 @@
 [TestNG-test=Gradle test-1] INFO  com.letzautomate.utilities.TestcaseManager  - ---Execution is started for testcase Login Functionality is started----
 [TestNG-test=Gradle test-1] INFO  com.letzautomate.utilities.TestcaseManager  - cleanup activity
 [TestNG-test=Gradle test-1] INFO  com.letzautomate.utilities.TestcaseManager  - The execution is completed for test001 and the status is Passed
-[Test worker] INFO  com.letzautomate.utilities.TestcaseManager  - The Results location in shared drive:: C:\LetsDoIt\results\regression\20210210231334extent-reports
+[Test worker] INFO  com.letzautomate.utilities.TestcaseManager  - The Results location in shared drive:: C:\LetsDoIt\results\regression\20210210231709extent-reports
