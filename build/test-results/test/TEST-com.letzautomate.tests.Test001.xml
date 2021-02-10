@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.letzautomate.tests.Test001" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-09T18:11:53" hostname="DESKTOP-2RG7AOM" time="14.493">
+  <properties/>
+  <testcase name="test001" classname="com.letzautomate.tests.Test001" time="14.493"/>
+  <system-out><![CDATA[[TestNG-test=Gradle test-1] INFO  com.letzautomate.utilities.TestcaseManager  - ---Execution is started for testcase Login Functionality is started----
+Browser and Assistive Technology Support
+Report Issue
+Related Issues
+Design Pattern
+Scrollable Listbox Example: Single-select listbox that scrolls to reveal more options, similar to HTML select with size attribute greater than one.
+Collapsible Dropdown Listbox Example: Single-select collapsible listbox that expands when activated, similar to HTML select with the attribute size="1".
+Proximity of public K-12 schools
+Proximity of child-friendly parks
+Proximity of grocery shopping
+Proximity of fast food
+Proximity of fine dining
+Neighborhood walkability
+Availability of public transit
+Proximity of hospital and medical services
+Level of traffic noise
+Access to major highways
+Assistive technologies are told which option in the list is visually focused by the value of aria-activedescendant:
+DOM focus remains on the listbox element.
+When a key that moves focus is pressed or an option is clicked, JavaScript changes the value of aria-activedescendant on the listbox element.
+If the listbox element does not contain any options, aria-activedescendant does not have a value.
+DOM focus remains on the listbox element.
+When a key that moves focus is pressed or an option is clicked, JavaScript changes the value of aria-activedescendant on the listbox element.
+If the listbox element does not contain any options, aria-activedescendant does not have a value.
+When Tab moves focus into either listbox:
+If none of the options are selected, the first option receives focus.
+If an option is selected, the selected option receives focus.
+If none of the options are selected, the first option receives focus.
+If an option is selected, the selected option receives focus.
+Only one option may be selected at a time (have aria-selected="true").
+As the user moves focus in the list, selection also moves. That is, both the value of aria-activedescendant and the element that has aria-selected="true" change.
+Leather seats
+Front seat warmers
+Rear bucket seats
+Rear seat warmers
+Front sun roof
+Rear sun roof
+Privacy cloque
+Food synthesizer
+Advanced waste recycling system
+Turbo vertical take-off capability
+Like in example 1, assistive technologies are told which option in the list is visually focused by the value of aria-activedescendant:
+DOM focus remains on the listbox element.
+When a key that moves focus is pressed or an option is clicked, JavaScript changes the value of aria-activedescendant on the listbox element.
+If the listbox element does not contain any options, aria-activedescendant does not have a value.
+DOM focus remains on the listbox element.
+When a key that moves focus is pressed or an option is clicked, JavaScript changes the value of aria-activedescendant on the listbox element.
+If the listbox element does not contain any options, aria-activedescendant does not have a value.
+When Tab moves focus into either listbox:
+If none of the options are selected, focus is set on the first option.
+If one or more options are selected, focus is set on the first selected option.
+If none of the options are selected, focus is set on the first option.
+If one or more options are selected, focus is set on the first selected option.
+Unlike example 1, more than one option may be selected at a time (have aria-selected="true").
+The multi-select capability is communicated to assistive technologies by setting aria-multiselectable="true" on the listbox element.
+All option elements have a value set for aria-selected.
+Selected options have aria-selected set to true and all others have it set to false.
+Keys that move focus do not change the selected state of an option.
+The multi-select capability is communicated to assistive technologies by setting aria-multiselectable="true" on the listbox element.
+All option elements have a value set for aria-selected.
+Selected options have aria-selected set to true and all others have it set to false.
+Keys that move focus do not change the selected state of an option.
+Users can toggle the selected state of the focused option with Space or click.
+Keyboard shortcuts for action buttons:
+Action buttons have the following shortcuts:
+"Up": Alt + Up Arrow
+"Down": Alt + Down Arrow
+"Add": Enter
+"Not Important", "Important", and "Remove": Delete
+Availability of the shortcuts is communicated to assistive technologies via the aria-keyshortcuts property on the button elements.
+Each shortcut is only captured when focus is in a context where it is relevant. For example, Enter performs an add only when focus is in the available options list, and Delete performs a remove only when focus is in the chosen options list.
+Using a shortcut key intentionally places focus to optimize both screen reader and keyboard usability. For example, pressing Alt + Up Arrow in the "Important Features" list keeps focus on the option that is moved up, enabling all keyboard users to easily perform consecutive move operations for an option and screen reader users to hear the position of an option after it is moved. Similarly, pressing Enter in the available options list leaves focus in the available options list. If the option that had focus before the add operation is no longer present in the list, focus lands on the first of the subsequent options that is still present.
+Action buttons have the following shortcuts:
+"Up": Alt + Up Arrow
+"Down": Alt + Down Arrow
+"Add": Enter
+"Not Important", "Important", and "Remove": Delete
+"Up": Alt + Up Arrow
+"Down": Alt + Down Arrow
+"Add": Enter
+"Not Important", "Important", and "Remove": Delete
+Availability of the shortcuts is communicated to assistive technologies via the aria-keyshortcuts property on the button elements.
+Each shortcut is only captured when focus is in a context where it is relevant. For example, Enter performs an add only when focus is in the available options list, and Delete performs a remove only when focus is in the chosen options list.
+Using a shortcut key intentionally places focus to optimize both screen reader and keyboard usability. For example, pressing Alt + Up Arrow in the "Important Features" list keeps focus on the option that is moved up, enabling all keyboard users to easily perform consecutive move operations for an option and screen reader users to hear the position of an option after it is moved. Similarly, pressing Enter in the available options list leaves focus in the available options list. If the option that had focus before the add operation is no longer present in the list, focus lands on the first of the subsequent options that is still present.
+In example 1, since there are four action buttons, a toolbar widget is used to group all the action buttons into a single tab stop.
+Live regions provide confirmation of completed actions.
+Moves focus to the next option.
+In the example 1 single-select listboxes, also selects the focused option.
+Moves focus to the previous option.
+In the example 1 single-select listboxes, also selects the focused option.
+Moves focus to the first option.
+In the example 1 single-select listboxes, also selects the focused option.
+Moves focus to the last option.
+In the example 1 single-select listboxes, also selects the focused option.
+Used only in example 2.
+Applied to the element with the listbox role, tells assistive technologies that the list supports multiple selection.
+The default value is false so it is not specified in example 1.
+Applied to the element with the listbox role, tells assistive technologies which of the options, if any, is visually indicated as having keyboard focus.
+DOM focus remains on the ul element and the idref specified for aria-activedescendant refers to the li element that is visually styled as focused.
+When navigation keys, such as Down Arrow, are pressed, the JavaScript changes the value.
+When the listbox is empty, aria-activedescendant="".
+Applied to elements with role option that are visually styled as selected to inform assistive technologies that the options are selected.
+In example 1, the option with this attribute is always the same as the option that is referenced by aria-activedescendant because it is a single-select listbox where selection follows focus.
+In example 2, more than one option may be selected so the user can move focus among options without effecting which options have this attribute.
+Note that in example 2, the focus style and selection styles are distinctly different and independent.
+Used only in example 2.
+Applied to elements with role option that are not visually styled as selected to inform assistive technologies that the options are selectable but not selected.
+In example 1, this is unnecessary because the selection moves every time the focus moves.
+CSS: listbox.css
+Javascript: listbox.js
+Javascript: toolbar.js
+Javascript: listbox-rearrangeable.js
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 15476
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 09, 2021 11:41:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
