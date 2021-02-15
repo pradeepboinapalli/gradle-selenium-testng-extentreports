@@ -10,10 +10,11 @@ public class Test001 extends TestcaseManager {
     public void test001() throws InterruptedException {
      Login login = new Login();
 
-
-      // login.login();
         setTestcaseName("Login Functionality");
-       login.selectValue("Proximity of fine dining");
+
+       login.login();
+
+       //login.selectValue("Proximity of fine dining");
         //login
     }
 

@@ -30,6 +30,7 @@ public class Login extends BasePage {
         SelectItems selectItems=new SelectItems(element);
         selectItems.slectItemsByValues(value);
         Thread.sleep(10000);
+
     }
 
     public void selectAll(String value) throws InterruptedException {

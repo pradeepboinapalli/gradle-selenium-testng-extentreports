@@ -43,6 +43,7 @@ public class BasePage {
         LOGGER.info("Before Clicking the Button");
         element.click();
         LOGGER.info("After Clicking the Button");
+
     }
 
     public void enterText(By locator, String textToEnter){
