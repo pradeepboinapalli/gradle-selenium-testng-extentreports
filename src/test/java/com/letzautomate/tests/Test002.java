@@ -10,6 +10,15 @@ public class Test002 extends TestcaseManager {
     public void test002() {
         Login login = new Login();
 
+        setTestcaseName("Login Functionality second time..");
+
+        login.login();
+    }
+
+    @Test(groups={"regression", "TC002"})
+    public void test001() {
+        Login login = new Login();
+
         setTestcaseName("Login Functionality second time");
 
         login.login();
